@@ -9,7 +9,7 @@ void main(void)
     P1IES |= 0x10; // P1.4 Hi/lo edge
     P1IFG &= ~0x10; // P1.4 IFG cleared
 
-    _bis_SR_register(LPM4_bits + GIE); // Enter LPM4 w/interrupt
+    __bis_SR_register(LPM4_bits + GIE); // Enter LPM4 w/interrupt
 
 }
 
