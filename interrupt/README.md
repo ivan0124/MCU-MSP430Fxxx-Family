@@ -22,5 +22,6 @@ This demo how to write interrupt service routine
 P1IE |= 0x10; // P1.4 interrupt enabled
 ...
 </pre>
+register `P1IE` is defined in [MSP430F5xx_UserGuide.pdf](http://139.162.35.49/image/MSP430Fxxx/MSP430F5xx_UserGuide.pdf) `12.4.4 P1IE Register`
 
 
