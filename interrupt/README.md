@@ -2,7 +2,7 @@
 This demo how to write interrupt service routine
 
 #Code Description
-1. bind interrupt vector `PORT1_VECTOR` to service routine `Port_1(void)`
+1. bind interrupt vector `PORT1_VECTOR` to service routine `Port_1(void)`: [example.c](https://github.com/ivan0124/MCU-MSP430Fxxx-Family/blob/master/interrupt/example.c)
 <pre>
 #pragma vector=PORT1_VECTOR
 
