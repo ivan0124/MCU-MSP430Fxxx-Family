@@ -16,7 +16,7 @@ This demo how to write interrupt service routine
 [MSP430f5419a.pdf](http://139.162.35.49/image/MSP430Fxxx/MSP430f5419a.pdf) `6.3 Interrupt Vector Addresses`
 ![image link](http://139.162.35.49/image/MSP430Fxxx/MSP430_inetrrupt_20160501.png)
 
-2. using register `P1IE` to enable interrupt. example: enable `P1.4` interrupt:
+2. using register `P1IE` to enable interrupt. example: enable `P1.4` interrupt: [example.c](https://github.com/ivan0124/MCU-MSP430Fxxx-Family/blob/master/interrupt/example.c)
 <pre>
 ...
 P1IE |= 0x10; // P1.4 interrupt enabled
